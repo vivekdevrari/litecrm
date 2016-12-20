@@ -1,0 +1,7 @@
+,"Agent&#039;s Name","Company Name","Email Address","Non Primary E-mails","Office Phone","Mobile Phone","Primary Address Street","Primary Address City"
+"<b>Error</b> Invalid Email address <br/><b>Field Name</b> Email Address: (email1) <br/><b>Value</b> aerotours11@gmail.com. <br/>","Vatsal Shah","Aero Tours",aerotours11@gmail.com.,,,9920092957,CHEMBUR,"Mumbai (Bombay)"
+"<b>Error</b> Required value missing <br/><b>Field Name</b> Agent&#039;s Name (last_name) <br/><b>Value</b> NULL <br/>",,"HaroFaro Tours & Travels",harofaro@gmail.com,,,9737600049,SATELLITE,Ahmedabad
+"<b>Error</b> Required value missing <br/><b>Field Name</b> Agent&#039;s Name (last_name) <br/><b>Value</b> NULL <br/>",,"Pragati Tour & Travels",,,,,KOLKATA,"Kolkata (Calcutta)"
+"<b>Error</b> Required value missing <br/><b>Field Name</b> Agent&#039;s Name (last_name) <br/><b>Value</b> NULL <br/>",,"Sai baba Travels",,,,,JALNA-ROAD,Aurangabad
+"<b>Error</b> Required value missing <br/><b>Field Name</b> Agent&#039;s Name (last_name) <br/><b>Value</b> NULL <br/>",,"Mr. Dhawal Pratap Singh",,,,,NAINITAL,Gurgaon
+"<b>Error</b> Invalid Email address <br/><b>Field Name</b> Email Address: (email1) <br/><b>Value</b> vikashjain@kvholidays <br/>","Mr. Vikash Jain","KV HOLIDAYS",vikashjain@kvholidays,,,9435046822,ASSAM,Guwahati

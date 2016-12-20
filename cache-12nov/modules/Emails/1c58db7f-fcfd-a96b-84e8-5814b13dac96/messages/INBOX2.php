@@ -1,0 +1,10 @@
+<?php // created: Sun, 30 Oct 2016 06:21:43 +0000
+	$cacheFile = array (
+  'timestamp' => 1477808503,
+  'out' => 'a:1:{s:4:"meta";a:7:{s:4:"type";s:7:"inbound";s:3:"uid";s:1:"2";s:4:"ieId";s:36:"1c58db7f-fcfd-a96b-84e8-5814b13dac96";s:5:"email";a:11:{s:4:"name";s:18:"Re: test [CASE:10]";s:9:"from_name";s:38:"vivek devrari <vivekdevrari@gmail.com>";s:9:"from_addr";s:44:"vivek devrari &lt;vivekdevrari@gmail.com&gt;";s:10:"date_start";s:19:"2016-10-30 06:18:00";s:10:"time_start";s:0:"";s:10:"message_id";s:32:"c58784a0a1167bfb4a7842a629d419ca";s:8:"cc_addrs";N;s:11:"attachments";s:0:"";s:7:"toaddrs";s:50:"liteCRM &lt;vivek@litecrm.co&gt;, hello@litecrm.co";s:11:"description";s:1018:"<div dir="ltr">tetgfgfgfg</div><div class="gmail_extra"><br /><div class="gmail_quote">On Sun, Oct 30, 2016 at 11:22 AM, liteCRM <span dir="ltr">&lt;<a href="mailto:vivek@litecrm.co">vivek@litecrm.co</a>&gt;</span> wrote:<br /><blockquote class="gmail_quote" style="margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex;"><div class="HOEnZb"><div class="h5">========== Please reply above this line ==========<p> Hi Rasi Saran,</p>
+					    <p>We\'ve received your case test (# 10) on 10/30/2016 06:01</p>
+					    <table border="0"><tbody><tr><td>Status</td><td>New</td></tr><tr><td>Reference</td><td>10</td></tr><tr><td>Description</td><td> </td></tr></tbody></table></div></div></blockquote></div><br /><br clear="all" /><div><br /></div>-- <br /><div class="gmail_signature"><font size="2"><span style="color:rgb(0,0,255);"><span style="font-family:\'courier new\', monospace;">Regards ,<br />Vivek Devrari<br /></span></span></font><br /><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+";s:13:"reply_to_addr";s:44:"vivek devrari &lt;vivekdevrari@gmail.com&gt;";}s:4:"mbox";s:5:"INBOX";s:2:"cc";s:0:"";s:13:"is_sugarEmail";b:0;}}',
+);
+?>

@@ -1,0 +1,137 @@
+<?php
+$module_name = 'ts_Passenger';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_CONTACT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EMAIL_ADDRESSES' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => false,
+    ),
+    'panels' => 
+    array (
+      'lbl_contact_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'passenger_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PASSENGER_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'trip_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TRIP_NAME',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'first_name',
+            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name"  id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
+          ),
+          1 => 'last_name',
+        ),
+        2 => 
+        array (
+          0 => 'assigned_user_name',
+          1 => 'do_not_call',
+        ),
+        3 => 
+        array (
+          0 => 'description',
+        ),
+      ),
+      'lbl_email_addresses' => 
+      array (
+        0 => 
+        array (
+          0 => 'email1',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'passenger_role_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PASSENGER_ROLE',
+          ),
+          1 => 
+          array (
+            'name' => 'departure_gateway_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DEPARTURE_GATEWAY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'airline_c',
+            'studio' => 'visible',
+            'label' => 'LBL_AIRLINE',
+          ),
+          1 => 
+          array (
+            'name' => 'air_ticket_no_c',
+            'label' => 'LBL_AIR_TICKET_NO',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'deviations_c',
+            'label' => 'LBL_DEVIATIONS',
+          ),
+          1 => 
+          array (
+            'name' => 'special_request_c',
+            'label' => 'LBL_SPECIAL_REQUEST',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

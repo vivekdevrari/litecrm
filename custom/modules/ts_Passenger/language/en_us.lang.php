@@ -1,0 +1,26 @@
+<?php
+// created: 2016-11-03 17:09:04
+$mod_strings = array (
+  'LBL_PASSENGER_NAME_CONTACT_ID' => 'Passenger Name (related Contact ID)',
+  'LBL_PASSENGER_NAME' => 'Passenger Name',
+  'LBL_TRIP_NAME_ACASE_ID' => 'Trip Name (related Case ID)',
+  'LBL_TRIP_NAME' => 'Trip Name',
+  'LBL_PASSENGER_ROLE' => 'Guest Role',
+  'LBL_DEPARTURE_GATEWAY' => 'Departure Gateway',
+  'LBL_AIRLINE' => 'Airline',
+  'LBL_AIR_TICKET_NO' => 'Air Ticket No.',
+  'LBL_DEVIATIONS' => 'Deviations',
+  'LBL_SPECIAL_REQUEST' => 'Special Request',
+  'LBL_ASSIGNED_TO_NAME' => 'Guest Owner',
+  'LBL_EDITVIEW_PANEL1' => 'Additional Information',
+  'LBL_LEAD_PASSENGER' => 'Lead Passenger',
+  'LBL_LAST_NAME' => 'Guest Name',
+  'LNK_NEW_RECORD' => 'Create Guests',
+  'LNK_LIST' => 'View Guests',
+  'LNK_IMPORT_VCARD' => 'Create From vCard',
+  'LNK_IMPORT_TS_PASSENGER' => 'Import Guests',
+  'LBL_LIST_FORM_TITLE' => 'Guest List',
+  'LBL_SEARCH_FORM_TITLE' => 'Search Guest',
+  'LBL_HOMEPAGE_TITLE' => 'My Guests',
+  'LBL_NATIONALITY' => 'Nationality',
+);

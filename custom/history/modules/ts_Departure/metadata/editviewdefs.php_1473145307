@@ -1,0 +1,185 @@
+<?php
+$module_name = 'ts_Departure';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => false,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'assigned_user_name',
+          1 => 
+          array (
+            'name' => 'parent_fixed_departure_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PARENT_FIXED_DEPARTURE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'location_c',
+            'label' => 'LBL_LOCATION',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'start_date_c',
+            'label' => 'LBL_START_DATE',
+          ),
+          1 => 
+          array (
+            'name' => 'end_date_c',
+            'label' => 'LBL_END_DATE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'pax_c',
+            'label' => 'LBL_PAX',
+          ),
+          1 => 
+          array (
+            'name' => 'rooms_c',
+            'label' => 'LBL_ROOMS',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'price_c',
+            'label' => 'LBL_PRICE',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'guests_c',
+            'label' => 'LBL_GUESTS',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'single_room_c',
+            'label' => 'LBL_SINGLE_ROOM',
+          ),
+          1 => 
+          array (
+            'name' => 'double_room_c',
+            'label' => 'LBL_DOUBLE_ROOM',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'triple_room_c',
+            'label' => 'LBL_TRIPLE_ROOM',
+          ),
+          1 => 
+          array (
+            'name' => 'quad_room_c',
+            'label' => 'LBL_QUAD_ROOM',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'quint_room_c',
+            'label' => 'LBL_QUINT_ROOM',
+          ),
+          1 => 
+          array (
+            'name' => 'total_rooms_c',
+            'label' => 'LBL_TOTAL_ROOMS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fixed_departure_revenue_c',
+            'label' => 'LBL_FIXED_DEPARTURE_REVENUE',
+          ),
+          1 => 
+          array (
+            'name' => 'fixed_departure_cost_c',
+            'label' => 'LBL_FIXED_DEPARTURE_COST',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>
